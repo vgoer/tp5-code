@@ -9,13 +9,26 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
+// 路由  文件
 return [
-    '__pattern__' => [
-        'name' => '\w+',
-    ],
-    '[hello]'     => [
-        ':id'   => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
-        ':name' => ['index/hello', ['method' => 'post']],
-    ],
+    // home  前台请求
+    'home'                =>  'Home/index/index',  // 首页
+
+
+
+
+
+    
+    'regApi'               =>   'Home/Login/reg',
+
+
+    // Admin  后台请求
+    'admin'                =>  'admin/index/index'  // 首页
+
+
+
+
+
+
 
 ];
