@@ -4,3 +4,4 @@
 > php + thinkphp5
 > 测试
 > by goer
+> test commit -m goer
